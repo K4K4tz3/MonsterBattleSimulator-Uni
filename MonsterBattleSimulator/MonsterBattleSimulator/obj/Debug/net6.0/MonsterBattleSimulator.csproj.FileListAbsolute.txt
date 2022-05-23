@@ -1,0 +1,15 @@
+D:\Programming\Assignments\MonsterBattleSimulator-Uni\MonsterBattleSimulator\MonsterBattleSimulator\bin\Debug\net6.0\MonsterBattleSimulator.exe
+D:\Programming\Assignments\MonsterBattleSimulator-Uni\MonsterBattleSimulator\MonsterBattleSimulator\bin\Debug\net6.0\MonsterBattleSimulator.deps.json
+D:\Programming\Assignments\MonsterBattleSimulator-Uni\MonsterBattleSimulator\MonsterBattleSimulator\bin\Debug\net6.0\MonsterBattleSimulator.runtimeconfig.json
+D:\Programming\Assignments\MonsterBattleSimulator-Uni\MonsterBattleSimulator\MonsterBattleSimulator\bin\Debug\net6.0\MonsterBattleSimulator.dll
+D:\Programming\Assignments\MonsterBattleSimulator-Uni\MonsterBattleSimulator\MonsterBattleSimulator\bin\Debug\net6.0\MonsterBattleSimulator.pdb
+D:\Programming\Assignments\MonsterBattleSimulator-Uni\MonsterBattleSimulator\MonsterBattleSimulator\obj\Debug\net6.0\MonsterBattleSimulator.csproj.AssemblyReference.cache
+D:\Programming\Assignments\MonsterBattleSimulator-Uni\MonsterBattleSimulator\MonsterBattleSimulator\obj\Debug\net6.0\MonsterBattleSimulator.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Assignments\MonsterBattleSimulator-Uni\MonsterBattleSimulator\MonsterBattleSimulator\obj\Debug\net6.0\MonsterBattleSimulator.AssemblyInfoInputs.cache
+D:\Programming\Assignments\MonsterBattleSimulator-Uni\MonsterBattleSimulator\MonsterBattleSimulator\obj\Debug\net6.0\MonsterBattleSimulator.AssemblyInfo.cs
+D:\Programming\Assignments\MonsterBattleSimulator-Uni\MonsterBattleSimulator\MonsterBattleSimulator\obj\Debug\net6.0\MonsterBattleSimulator.csproj.CoreCompileInputs.cache
+D:\Programming\Assignments\MonsterBattleSimulator-Uni\MonsterBattleSimulator\MonsterBattleSimulator\obj\Debug\net6.0\MonsterBattleSimulator.dll
+D:\Programming\Assignments\MonsterBattleSimulator-Uni\MonsterBattleSimulator\MonsterBattleSimulator\obj\Debug\net6.0\refint\MonsterBattleSimulator.dll
+D:\Programming\Assignments\MonsterBattleSimulator-Uni\MonsterBattleSimulator\MonsterBattleSimulator\obj\Debug\net6.0\MonsterBattleSimulator.pdb
+D:\Programming\Assignments\MonsterBattleSimulator-Uni\MonsterBattleSimulator\MonsterBattleSimulator\obj\Debug\net6.0\MonsterBattleSimulator.genruntimeconfig.cache
+D:\Programming\Assignments\MonsterBattleSimulator-Uni\MonsterBattleSimulator\MonsterBattleSimulator\obj\Debug\net6.0\ref\MonsterBattleSimulator.dll

@@ -12,9 +12,25 @@ namespace MonsterBattleSimulator
         internal MonsterType type;
         internal void Attack(Monster defender)
         {
+            float damage = this.ap - defender.dp;
             if (this.ap < defender.dp) return;
-            else defender.hp = defender.hp - (this.ap - defender.dp);
+            else defender.hp = defender.hp - damage;
             if (defender.hp < .0f) defender.hp = .0f;
+        }
+        internal void AttackPremium(Monster defender)
+        {
+            float damage = this.ap - defender.dp;
+            if (this.ap < defender.dp) return;
+            else defender.hp = defender.hp - damage;
+            Console.WriteLine($"{this.type} attacked {defender.type} and made {damage} damage.");
+            if (defender.hp < .0f)
+            {
+                defender.hp = .0f;
+                return;
+            }
+            Thread.Sleep(500);
+            Console.WriteLine($"{defender.type} remains with {defender.hp} health");
+            Thread.Sleep(1250);
         }
     }
     enum MonsterType
