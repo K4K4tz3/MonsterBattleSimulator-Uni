@@ -128,8 +128,4 @@ namespace MonsterBattleSimulator
             Thread.Sleep(500);
         }
     }
-}```
-
----
-Tags:
-#Code
+}
