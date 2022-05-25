@@ -9,7 +9,6 @@ namespace MonsterBattleSimulator
         private static List<MonsterType> monsterTypes = new List<MonsterType>() { MonsterType.Ork, MonsterType.Troll, MonsterType.Goblin };
         private static bool fight = true;
         private static int rounds = 0;
-        private static bool choice = false;
         private static int turn; // 0 -> Player/Monster1, 1 -> Enemy/Monster2
         internal static void Main(string[] args)
         {
@@ -17,7 +16,6 @@ namespace MonsterBattleSimulator
             Thread.Sleep(500);
             Console.WriteLine("I welcome you to the glorious Monster Battle Arenaaa");
             Thread.Sleep(500);
-            showFight();
             Console.WriteLine("Please customize your Monster!");
             Thread.Sleep(1000);
             Console.Clear();
@@ -54,7 +52,7 @@ namespace MonsterBattleSimulator
             Thread.Sleep(500);
             Console.Clear();
         }
-        internal static float checkInput(string Input, string attribute = "")
+        internal static float checkInput(string Input, string attribute)
         {
             float output;
 
@@ -75,12 +73,6 @@ namespace MonsterBattleSimulator
             }
             return .0f;
         }
-        internal static void showFight()
-        {
-            Console.WriteLine("Do you want to be shown the fight? y/yes or n/no:");
-            string c = Console.ReadLine();
-            if (c == "y" || c == "yes" || c == "Y" || c == "Yes") choice = true;
-        }
         internal static void Fight(Monster player, Monster enemy)
         {
             while (fight)
@@ -94,22 +86,14 @@ namespace MonsterBattleSimulator
                 if (rounds == 100) aDraw();
                 else
                 {
-                    switch (turn, choice)
+                    switch (turn)
                     {
-                        case (0, false):
+                        case 0:
                             player.Attack(enemy);
                             turn = 1;
                             break;
-                        case (1, false):
+                        case 1:
                             enemy.Attack(player);
-                            turn = 0;
-                            break;
-                        case (0, true):
-                            player.AttackPremium(enemy);
-                            turn = 1;
-                            break;
-                        case (1, true):
-                            enemy.AttackPremium(player);
                             turn = 0;
                             break;
                     }
@@ -117,10 +101,8 @@ namespace MonsterBattleSimulator
                 }
             }
         }
-        internal static void Winner(MonsterType winner, int roundsNeeded, float remainingHP)
+        private static void Winner(MonsterType winner, int roundsNeeded, float remainingHP)
         {
-            Console.Clear();
-            Thread.Sleep(1000);
             Console.WriteLine($"The fight ended after {roundsNeeded} rounds.");
             Thread.Sleep(500);
             Console.WriteLine($"Our winner survived with {remainingHP} HP left.");
@@ -134,8 +116,6 @@ namespace MonsterBattleSimulator
         }
         internal static void aDraw()
         {
-            Console.Clear();
-            Thread.Sleep(1000);
             Console.WriteLine("After countless rounds...");
             Thread.Sleep(500);
             Console.WriteLine("Of brutal fights....");
