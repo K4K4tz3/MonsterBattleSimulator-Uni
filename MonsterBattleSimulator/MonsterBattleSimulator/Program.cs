@@ -17,7 +17,7 @@ namespace MonsterBattleSimulator
             Console.WriteLine("I welcome you to the glorious Monster Battle Arenaaa");
             Thread.Sleep(500);
             Console.WriteLine("Please customize your Monster!");
-            Thread.Sleep(1000);
+            Thread.Sleep(1000); 
             Console.Clear();
             Monster player = new Monster();
             create_Character(player, "players");

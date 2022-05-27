@@ -14,7 +14,7 @@
         "outputPath": "D:\\Programming\\Assignments\\MonsterBattleSimulator-Uni\\MonsterBattleSimulator\\MonsterBattleSimulator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Programming\\VisualStudio2022\\Komponenten, Tools und SDK's\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\wolff\\AppData\\Roaming\\NuGet\\NuGet.Config",
